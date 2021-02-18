@@ -17,7 +17,7 @@ function getOneCharacter(myString, index){
 }
 
 function getTwoCharacters(myString, indexOne, indexTwo){
-  return myString[indexOne] + myString[indexTwo]
+  return myString[indexOne] + myString[indexTwo];
 }
 function makeCapitalized(myString){
   return myString.toUpperCase();
@@ -27,7 +27,7 @@ function yellLouder(myString){
 } 
 function getInitials(name) {
   let indexOfSecondInitial = name.indexOf(' ');
-  return name[0] + '.' + name[indexOfSecondInitial + 1] + '.'
+  return name[0] + '.' + name[indexOfSecondInitial + 1] + '.' ;
 }
 
 
